@@ -24,6 +24,8 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
